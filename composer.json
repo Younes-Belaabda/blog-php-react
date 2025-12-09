@@ -11,5 +11,8 @@
             "name": "Younes-Belaabda",
             "email": "belaabda.youness@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
 }
