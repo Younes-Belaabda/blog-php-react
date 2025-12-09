@@ -14,5 +14,7 @@ Blog website using PHP , React Js
 - Created a routing file (index.php) to handle all requests.
 - Added .htaccess for pretty URLs in Apache / Laragon environment.
 - Implemented basic routes:
-    - / → Home page
-    - /about → About page
+    - Frontend routes: for rendering pages like /blog/list or /blog/create.
+    - API routes: follow REST conventions (GET, POST, PUT, DELETE) for /api/blogs.
+    - Supports method override via a hidden _method field in forms for PUT/DELETE requests.
+    - Routes not matched will return a 404 Not Found.
